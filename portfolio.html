@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: rgb(115, 119, 128);
+        }
+
+        header {
+            background-color: rgb(115, 119, 128);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: black;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-item h2 {
+            font-size: 1.5rem;
+            margin: 1rem;
+        }
+
+        .portfolio-item p {
+            font-size: 1rem;
+            margin: 0 1rem 1rem;
+            color: #666;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(115, 119, 128);
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .link-button:hover {
+            background-color: rgb(95, 99, 108);
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-item h2 {
+                font-size: 1.2rem;
+            }
+            
+            .portfolio-item p {
+                font-size: 0.9rem;
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #777;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio</h1>
+    </header>
+
+    <div class="container">
+        <div class="portfolio-item">    
+            <h2>Projeto 1</h2>
+            <p>Descrição.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2>Projeto 2</h2>
+            <p>Descrição.</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+        <div class="button-container">
+            <a href="index.html" class="link-button">Voltar</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Matheus Bezerra Martinelli. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
